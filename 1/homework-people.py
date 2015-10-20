@@ -30,8 +30,13 @@
 #
 # Pick the rest of the values yourself. :-)
 
+yes = True
+no = False
 
-people = {}
+chld1 = {'111': {'name': 'Nikolce', 'surname': 'Gruevski', 'age': 4, 'weight': 15.6, 'is_married': no, 'children': []}, '222': {'name': 'Zorance', 'surname': 'Zaev', 'age': 2, 'weight': 13.3, 'is_married': no, 'children': []}}
+chld2 = {'333': {'name': 'Nikozaevce', 'surname': 'Zaeski', 'age': 6, 'weight': 25.6, 'is_married': no, 'children': []}}
+
+people = {'123': {'name': 'Nikola', 'surname': 'Gruevski', 'age': 40, 'weight': 85.6, 'is_married': yes, 'children': [chld1['111'], chld1['222']]}, '456': {'name': 'Zoran', 'surname': 'Zaev', 'age': 42, 'weight': 83.3, 'is_married': yes, 'children': [chld2['333']]}}
 # Delete this comment and WRITE YOUR CODE HERE.
 
 
